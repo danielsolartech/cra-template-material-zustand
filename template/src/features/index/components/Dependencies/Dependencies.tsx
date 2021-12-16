@@ -28,7 +28,6 @@ const Dependencies: React.FC<Props> = ({ color, dependencies, title }) => {
 							}/v/${dependency.version.replace('^', '')}`}
 							label={`${dependency.title} ~ ${dependency.version}`}
 							rel="noopener noreferrer"
-							role={`chip_${dependency.title.toLowerCase()}`}
 							target="_blank"
 							variant="outlined"
 						/>
