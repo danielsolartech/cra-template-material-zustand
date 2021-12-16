@@ -77,7 +77,8 @@
       "precommit": "pretty-quick --staged && yarn lint && yarn type-check",
       "postinstall": "husky install",
       "start": "react-app-rewired start",
-      "test": "react-app-rewired test"
+      "test": "react-app-rewired test",
+      "type-check": "tsc --pretty --noEmit"
     }
   }
 }
