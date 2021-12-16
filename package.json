@@ -1,0 +1,37 @@
+{
+	"name": "cra-template-material-zustand",
+	"version": "0.1.0",
+	"description": "A template for ReactJS with Zustand and Material UI v5",
+	"license": "GPL-3.0",
+	"keywords": [
+		"react",
+		"create-react-app",
+		"template",
+		"cra-template",
+		"typescript",
+		"material-ui",
+		"react-router-dom",
+		"zustand",
+		"eslint",
+		"prettier",
+		"husky"
+	],
+	"repository": "github:danielsolartech/cra-template-material-zustand",
+	"homepage": "https://github.com/danielsolartech/cra-template-material-zustand#readme",
+	"bugs": {
+		"url": "https://github.com/danielsolartech/cra-template-material-zustand/issues"
+	},
+	"author": {
+		"name": "Daniel Solarte",
+		"email": "contact@danielsolarte.com",
+		"url": "https://www.danielsolarte.com/"
+	},
+	"main": "template.json",
+	"files": [
+		"template",
+		"template.json"
+	],
+	"publishConfig": {
+		"access": "public"
+	}
+}
